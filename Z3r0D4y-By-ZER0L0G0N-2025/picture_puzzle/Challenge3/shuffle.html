@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuffle Gallery</title>
+    <link rel="stylesheet" href="shuffle-style.css">
+</head>
+<body>
+    <!-- Taskbar -->
+    <nav class="taskbar">
+        <div class="taskbar-container">
+            <div class="logo">📸 Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shuffle.html" class="active">Photos</a></li>
+                <li><a href="next-page.html">Thanks</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="animated-background"></div>
+    
+    <div class="container">
+        <h1 class="main-title">Let's Organize Your Memories</h1>
+        <p class="subtitle">Help me to shuffle these 6 pictures</p>
+
+        <div class="gallery-grid">
+            <!-- Photo Box 1 -->
+            <div class="photo-box" data-position="1">
+                <div class="photo-wrapper">
+                    <img src="picture1.jpg" alt="Photo 1">
+                    <div class="overlay">
+                        <button class="shuffle-btn">Shuffle This</button>
+                    </div>
+                </div>
+                <div class="position-label">Position 1</div>
+            </div>
+
+            <!-- Photo Box 2 -->
+            <div class="photo-box" data-position="2">
+                <div class="photo-wrapper">
+                    <img src="picture2.jpg" alt="Photo 2">
+                    <div class="overlay">
+                        <button class="shuffle-btn">Shuffle This</button>
+                    </div>
+                </div>
+                <div class="position-label">Position 2</div>
+            </div>
+
+            <!-- Photo Box 3 -->
+            <div class="photo-box" data-position="3">
+                <div class="photo-wrapper">
+                    <img src="picture3.jpg" alt="Photo 3">
+                    <div class="overlay">
+                        <button class="shuffle-btn">Shuffle This</button>
+                    </div>
+                </div>
+                <div class="position-label">Position 3</div>
+            </div>
+
+            <!-- Photo Box 4 -->
+            <div class="photo-box" data-position="4">
+                <div class="photo-wrapper">
+                    <img src="images5.jpeg" alt="Photo 4">
+                    <div class="overlay">
+                        <button class="shuffle-btn">Shuffle This</button>
+                    </div>
+                </div>
+                <div class="position-label">Position 4</div>
+            </div>
+
+            <!-- Photo Box 5 -->
+            <div class="photo-box" data-position="5">
+                <div class="photo-wrapper">
+                    <img src="images6.jpeg" flag-aGFua3Mg(position 4) alt="Photo 5">
+                    <div class="overlay">
+                        <button class="shuffle-btn">Shuffle This</button>
+                    </div>
+                </div>
+                <div class="position-label">Position 5</div>
+            </div>
+
+            <!-- Photo Box 6 -->
+            <div class="photo-box" data-position="6">
+                <div class="photo-wrapper">
+                    <img src="images7.jpeg" alt="Photo 6">
+                    <div class="overlay">
+                        <button class="shuffle-btn">Shuffle This</button>
+                    </div>
+                </div>
+                <div class="position-label">Position 6</div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="next-page-container">
+            <button class="prev-page-btn" id="prevPageBtn">
+                <span class="btn-arrow">←</span>
+                <span class="btn-text">Previous Page</span>
+            </button>
+            <button class="next-page-btn" id="nextPageBtn">
+                <span class="btn-text">Next Page</span>
+                <span class="btn-arrow">→</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Popup Message -->
+    <div class="popup-message" id="popupMessage">
+        <div class="popup-content">
+            <div class="popup-icon">🔄</div>
+            <p class="popup-text"></p>
+            <button class="popup-close">Got it!</button>
+        </div>
+    </div>
+
+    <script src="shuffle-script.js"></script>
+</body>
+</html>

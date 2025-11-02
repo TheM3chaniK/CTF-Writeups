@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Taskbar -->
+    <nav class="taskbar">
+        <div class="taskbar-container">
+            <div class="logo">📸 Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shuffle.html">Photos</a></li>
+                <li><a href="next-page.html">Thanks</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="background-container">
+        <div class="photo-grid">
+            <img src="images.jpeg" alt="Photo 1" class="bg-photo">
+            <img src="images1.jpeg" alt="Photo 2" class="bg-photo">
+            <img src="images2.jpeg" alt="Photo 3" class="bg-photo">
+            <img src="images3.jpeg" alt="Photo 4" class="bg-photo">
+            <img src="images4.jpeg" alt="Photo 5" class="bg-photo">
+            <img src="images5.jpeg" alt="Photo 6" class="bg-photo">
+            <img src="images6.jpeg" alt="Photo 7" class="bg-photo">
+            <img src="images7.jpeg" alt="Photo 8" class="bg-photo">
+        </div>
+    </div>
+
+    <div class="message-container" id="messageBox">
+        <div class="message-content">
+            <p class="animated-text" id="animatedText"></p>
+            <button class="shuffle-button" id="shuffleBtn">
+                <span class="btn-text">Let's Go</span>
+                <span class="btn-icon">→</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
