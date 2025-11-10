@@ -17,7 +17,7 @@
 
 ### 🧭 Initial Reconnaissance (aka "open the spooky mail")
 
-- \*\*Step 1 — I downloaded the [pumpkin.eml](./pumpkin.eml) file which is given in the challenge.
+- **Step 1 — I downloaded the [pumpkin.eml](./pumpkin.eml) file which is given in the challenge.
 - **Step 2 — Inspect EML:** You can read the eml file manually but who will do the hard work. So I used EML viewer [https://www.emlreader.com/](https://www.emlreader.com/) to render headers and attachments safely.
 - **Step 3 — Note metadata:** Email shows:
   - **Subject:** Flag where?
